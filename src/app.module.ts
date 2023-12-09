@@ -6,7 +6,7 @@ import { UserModule } from './user/user.module';
 
 @Module({
   imports: [
-    CustomCacheModule,
+    // CustomCacheModule,
     UserModule
   ],
   controllers: [AppController],
