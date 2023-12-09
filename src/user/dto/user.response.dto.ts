@@ -1,6 +1,7 @@
-export class CreateUserResponseDto {
- 
-    name: string; 
+export class UserResponseDto {
+
+    id: string;
+    name: string;
     password: string;
 
 }

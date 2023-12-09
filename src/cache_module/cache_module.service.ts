@@ -19,7 +19,12 @@ export class CacheModuleService {
         return await this.cacheService.del(key);
     }
 
-    public async resetCache(): Promise<void> {0
+    public async resetCache(): Promise<void> {
         return await this.cacheService.reset();
     }
+
+    public async getAllCache(): Promise<any> {
+        return await this.cacheService.store.keys();
+    }
+
 }
