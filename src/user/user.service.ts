@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { User } from './user.model';
-import { CacheModuleService } from 'src/cache_module/cache_module.service';
+import { User } from './user.model'; 
+import { CacheModuleService } from '../cache_module/cache_module.service';
 
 @Injectable()
 export class UserService {
